@@ -4,3 +4,6 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
+
+document.getElementById("ccright").innerHTML =
+  "&copy; " + new Date().getFullYear() + " Fuja" + " - All Rights Reserved";
